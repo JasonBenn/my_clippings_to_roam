@@ -21,7 +21,8 @@ _From left to right: My Clippings.txt, the output of this script, and the final 
  31: Digital Minimalism (Cal Newport)
 105: Poor Charlie's Almanack - Charlie Munger
 ```
-4. And once you've got a query that only matches one document, all of your highlights will be printed to the console in a format suitable for one page in Roam in a [style inspired by Nat Eliason](https://twitter.com/jasoncbenn/status/1227746265724702720). The outputted `Tags::` line will include any date on which you made a highlight for this document (in other words, if I read a book over the course of a week and made highlights on 3 different days, all 3 days will be represented).
+4. And once you've got a query that only matches one document, all of your highlights will be printed to the console in a format suitable for one page in Roam in a [style inspired by Nat Eliason](https://twitter.com/jasoncbenn/status/1227746265724702720). 
+   The outputted `Tags::` line will include any date on which you made a highlight for this document (in other words, if I read a book over the course of a week and made highlights on 3 different days, all 3 days will be represented).
 ```
 > python parse.py poor
 Poor Charlie's Almanack - Charlie Munger
