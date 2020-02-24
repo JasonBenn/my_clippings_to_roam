@@ -7,7 +7,7 @@ _From left to right: My Clippings.txt, the output of this script, and the final 
 
 ## Usage
 
-1. To configure, update the values of MY_CLIPPINGS_PATH and CUSTOM_HASHTAGS.
+1. To configure, update the values of `MY_CLIPPINGS_PATH` and `CUSTOM_HASHTAGS`.
 2. Invoke the script without any arguments to see a sorted list of documents and books with the number of highlights in each:
 ```
 > python parse.py
@@ -38,4 +38,5 @@ If you've got any feedback, @ me in the [Roam Research Slack](https://roamresear
 
 ## Other tips
 
-I use [Calibre](https://calibre-ebook.com/)'s experimental "Fetch Annotations" function to get highlights from my Kindle docs.
+- I use [Calibre](https://calibre-ebook.com/)'s experimental "Fetch Annotations" function to get highlights from my Kindle docs.
+- I recommend adding `alias clippings_to_roam="PYENV_VERSION=clippings_to_roam python ~/code/clippings_to_roam/parse.py"` to your `~/.bashrc` (or equivalent) so that you can run this script from anywhere (and any virtualenv) with `clippings_to_roam`. I use [pyenv](https://github.com/pyenv/pyenv) to manage Python versions and dependencies.
