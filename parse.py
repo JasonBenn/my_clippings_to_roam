@@ -10,7 +10,7 @@ from dateutil import parser
 
 
 # Configure this script by changing these two constants:
-MY_CLIPPINGS_PATH = "/Users/jasonbenn/Desktop/Kindle/My Clippings.txt"
+MY_CLIPPINGS_PATH = "/Volumes/Kindle/documents/My Clippings.txt"  # Works when Kindle is connected.
 CUSTOM_HASHTAGS = ["ML papers", "TODO"]
 
 

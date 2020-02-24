@@ -7,21 +7,22 @@ _From left to right: My Clippings.txt, the output of this script, and the final 
 
 ## Usage
 
-1. To configure, update the values of `MY_CLIPPINGS_PATH` and `CUSTOM_HASHTAGS`.
-2. Invoke the script without any arguments to see a sorted list of documents and books with the number of highlights in each:
+1. Connect your Kindle to your computer.
+2. To configure, update `CUSTOM_HASHTAGS` (and perhaps `MY_CLIPPINGS_PATH`, if your Kindle path is different on your computer than it is on mine).
+3. Invoke the script without any arguments to see a sorted list of documents and books with the number of highlights in each:
 ```
 > python parse.py
  31: Digital Minimalism (Cal Newport)
 105: Poor Charlie's Almanack - Charlie Munger
  15: Self-Attention Generative Adversarial Networks - Zhang
 ```
-3. To filter results of any individual document or book, pass a query to the command. Any documents with matching titles (case insensitive) will be printed:
+4. To filter results of any individual document or book, pass a query to the command. Any documents with matching titles (case insensitive) will be printed:
 ```
 > python parse.py po
  31: Digital Minimalism (Cal Newport)
 105: Poor Charlie's Almanack - Charlie Munger
 ```
-4. And once you've got a query that only matches one document, all of your highlights will be printed to the console in a format suitable for one page in Roam in a [style inspired by Nat Eliason](https://twitter.com/jasoncbenn/status/1227746265724702720). 
+5. And once you've got a query that only matches one document, all of your highlights will be printed to the console in a format suitable for one page in Roam in a [style inspired by Nat Eliason](https://twitter.com/jasoncbenn/status/1227746265724702720). 
 
 ```
 > python parse.py poor
@@ -38,5 +39,4 @@ If you've got any feedback, @ me in the [Roam Research Slack](https://roamresear
 
 ## Other tips
 
-- I use [Calibre](https://calibre-ebook.com/)'s experimental "Fetch Annotations" function to get highlights from my Kindle docs.
 - I recommend adding `alias clippings_to_roam="PYENV_VERSION=clippings_to_roam python ~/code/clippings_to_roam/parse.py"` to your `~/.bashrc` (or equivalent) so that you can run this script from anywhere (and any virtualenv) with `clippings_to_roam`. I use [pyenv](https://github.com/pyenv/pyenv) to manage Python versions and dependencies.
