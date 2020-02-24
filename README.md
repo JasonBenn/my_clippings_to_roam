@@ -2,7 +2,7 @@
 
 This little script is meant to parse My Clipping.txt files from Kindle devices and print them to the terminal in a format suitable for copy-pasting into Roam.
 
-![image](https://user-images.githubusercontent.com/2539761/75123240-911f1480-565a-11ea-954a-3e230b7f2849.png)
+![image](https://user-images.githubusercontent.com/2539761/75123278-d93e3700-565a-11ea-8170-f2452f70d570.png)
 _From left to right: My Clippings.txt, the output of this script, and the final document in Roam._
 
 ## Usage
