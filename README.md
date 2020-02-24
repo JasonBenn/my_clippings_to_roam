@@ -22,7 +22,7 @@ _From left to right: My Clippings.txt, the output of this script, and the final 
 105: Poor Charlie's Almanack - Charlie Munger
 ```
 4. And once you've got a query that only matches one document, all of your highlights will be printed to the console in a format suitable for one page in Roam in a [style inspired by Nat Eliason](https://twitter.com/jasoncbenn/status/1227746265724702720). 
-   The outputted `Tags::` line will include any date on which you made a highlight for this document (in other words, if I read a book over the course of a week and made highlights on 3 different days, all 3 days will be represented).
+
 ```
 > python parse.py poor
 Poor Charlie's Almanack - Charlie Munger
@@ -31,6 +31,8 @@ Tags:: #[[February 20th, 2020]] #[[February 22nd, 2020]] #[[Charlie Munger]] #[[
 - [Franklin] left behind a full record of an old age that was among the most constructive and happy euer lived...
 ...
 ```
+
+The outputted `Tags::` line will include any date on which you made a highlight for this document (in other words, if I read a book over the course of a week and made highlights on 3 different days, all 3 days will be represented).
 
 If you've got any feedback, @ me in the [Roam Research Slack](https://roamresearch.slack.com/join/shared_invite/enQtODg3NjIzODEwNDgwLTdhMjczMGYwN2YyNmMzMDcyZjViZDk0MTA2M2UxOGM5NTMxNDVhNDE1YWVkNTFjMGM4OTE3MTQ3MjEzNzE1MTA) in the #hacking channel or on [Twitter](https://twitter.com/jasoncbenn), or send me an email at jasoncbenn@gmail.com! 
 
